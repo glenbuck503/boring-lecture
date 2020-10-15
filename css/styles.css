@@ -1,4 +1,21 @@
 
+@media screen and (max-width: 1000px) and (min-width: 700px) {
+  body {
+    background-color: green;
+    color: white;
+  }   
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    background-color: orange;
+  }
+}
+
+
+
+
+
 
 p.intro {
   color: blue;
@@ -16,5 +33,9 @@ img.intro {
   margin-right: auto;
   width: 50%;
 }
+
+
   
   
+/* Mobile screens (roughly 300 - 480 pixels wide)
+Medium and tablet screens (roughly 700 - 1000 pixels wide) */
